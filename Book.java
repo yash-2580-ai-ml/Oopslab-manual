@@ -17,6 +17,10 @@ public class Book {
 
     public static void main(String[] args) {
         Book b1 = new Book("Something Wicked This Way Comes", "Ray Bradbury", 1962);
+        Book b2 = new Book("The lord of the rings","J.R.R Tolkien",1954);
+        System.out.println("Book one details:");
+        b1.displayDetails();
+        System.out.println("Book Two details:");
         b1.displayDetails();
     }
 }
